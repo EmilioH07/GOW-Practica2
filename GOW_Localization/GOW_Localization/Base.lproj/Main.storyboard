@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Uv-lp-ftF">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Uv-lp-ftF">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -10,6 +11,9 @@
     <customFonts key="customFonts">
         <array key="CGF Locust Resistance.ttf">
             <string>CGFLocustResistance</string>
+        </array>
+        <array key="PressStart2P-Regular.ttf">
+            <string>PressStart2P-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -20,7 +24,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="40" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="VRJ-bF-d66">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="40" id="aQv-vN-3J2" customClass="GOWCell" customModule="GOW_Localization" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="50" width="393" height="40"/>
@@ -31,6 +35,7 @@
                                     <subviews>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="idN-fO-dms">
                                             <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                                            <color key="backgroundColor" name="GOWBlack1"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="40" id="XT0-JQ-zw0"/>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="ggC-DP-KEJ"/>
@@ -40,11 +45,13 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vxK-y3-VfO">
                                             <rect key="frame" x="43" y="0.0" width="350" height="40"/>
+                                            <color key="backgroundColor" name="GOWBlack1"/>
                                             <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
-                                            <nil key="textColor"/>
+                                            <color key="textColor" name="GOWText"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <color key="backgroundColor" name="GOWBlack1"/>
                                     <constraints>
                                         <constraint firstAttribute="bottom" secondItem="vxK-y3-VfO" secondAttribute="bottom" id="7jy-Ga-pZw"/>
                                         <constraint firstItem="vxK-y3-VfO" firstAttribute="leading" secondItem="idN-fO-dms" secondAttribute="trailing" constant="3" id="7q3-ro-UkZ"/>
@@ -96,7 +103,7 @@
                             </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Txh-lF-smm"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="GOWBlack1"/>
                         <constraints>
                             <constraint firstItem="z39-ZD-c0l" firstAttribute="bottom" secondItem="Txh-lF-smm" secondAttribute="bottom" id="02D-IV-KJH"/>
                             <constraint firstItem="Txh-lF-smm" firstAttribute="trailing" secondItem="z39-ZD-c0l" secondAttribute="trailing" constant="16" id="LOo-YB-92l"/>
@@ -140,8 +147,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Cy7-h0-7yM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="20"/>
+                                <color key="textColor" name="GOWRed"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerGOW" translatesAutoresizingMaskIntoConstraints="NO" id="RF1-nG-FAk">
@@ -166,8 +173,8 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="zMv-BO-TXy"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
+                                                    <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JJH-vu-isX">
@@ -181,8 +188,8 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="qBk-wu-5v7"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="PressStart2P-Regular" family="Press Start 2P" pointSize="15"/>
+                                                    <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -284,6 +291,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="GOWRed"/>
                     </tabBar>
                     <connections>
                         <segue destination="dcF-aT-L79" kind="relationship" relationship="viewControllers" id="7RL-6t-84l"/>
@@ -307,8 +315,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="HHS-pS-iHo"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="20"/>
+                                <color key="textColor" name="GOWRed"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="headerLocus" translatesAutoresizingMaskIntoConstraints="NO" id="TH8-V9-fdd">
@@ -333,8 +341,8 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="6a9-Z7-rid"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="15"/>
+                                                    <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H8l-C2-maG">
@@ -348,8 +356,8 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="5z4-RF-lMT"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="PressStart2P-Regular" family="Press Start 2P" pointSize="17"/>
+                                                    <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -429,8 +437,14 @@
         <image name="gearshape" catalog="system" width="128" height="123"/>
         <image name="headerGOW" width="393" height="346"/>
         <image name="headerLocus" width="1512" height="712"/>
+        <namedColor name="GOWBlack1">
+            <color red="0.059000000357627869" green="0.030999999493360519" blue="0.039000000804662704" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="GOWRed">
             <color red="0.63899999856948853" green="0.050999999046325684" blue="0.054999999701976776" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="GOWText">
+            <color red="0.54100000858306885" green="0.5220000147819519" blue="0.5690000057220459" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -11,6 +11,10 @@ class WeaponsViewController: UIViewController {
 
     @IBOutlet weak var WeaponsTableView: UITableView!
     
+    
+    
+    
+    
     // MARK: - Datasource
     var arrayWeapons : [Weapon] = []
     //    CGO Weapons
@@ -50,7 +54,7 @@ class WeaponsViewController: UIViewController {
                     Weapon(
                     name: "weapon.name.boomshot",
                     description: "weapon.description.boomshot",
-                    poster: "weapon.name.hammerburstii"
+                    poster: "BoomshotGrenadeLauncher"
                 ),
                     Weapon(
                         name: "weapon.name.hammerburstii",
@@ -89,6 +93,8 @@ class WeaponsViewController: UIViewController {
         }
         print(arrayWeapons)
     
+        
+        
     }
 }
 
