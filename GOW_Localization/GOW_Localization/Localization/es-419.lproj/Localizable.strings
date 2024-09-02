@@ -1,0 +1,36 @@
+/* 
+  Localizable.strings
+  GOW_Localization
+
+  Created by Emilio Herrera on 02/09/24.
+  
+*/
+
+/* MENU */
+"menu.option.videogames" = "Videojuegos";
+"menu.option.characters" = "Personajes";
+"menu.option.weapons" = "Armas";
+"menu.option.merchandise" = "Mercancias";
+
+/* WEAPONS */
+"weapon.name.boomshot" = "Lanzagranadas Boomshot";
+"weapon.description.boomshot" = "Era un lanzagranadas de bombeo de un solo tiro, principalmente diseñado y utilizado por los Locust, en particular por los Boomers.";
+"weapon.name.hammerburstii" = "Hammerburst II";
+"weapon.description.hammerburstii" = "Era el fusil de asalto estándar de alta potencia de los Locust. A menudo se le considera el equivalente de los Locust al fusil de asalto COG Lancer.";
+"weapon.name.mulcher" = "Mulcher";
+"weapon.description.mulcher" = "El Mulcher es un fusil Gatling pesado operado con manivela desarrollado por la Coalición de Gobiernos Ordenados.";
+"weapon.name.bolo_grenade" = "Granada Bolo";
+"weapon.description.bolo_grenade" = "La Granada Bolo, también conocida como Granada de Fragmentación, era la granada de fragmentación estándar utilizada por la Coalición de Gobiernos Ordenados, la Horda Locust y el Swarm.";
+"weapon.name.boltok" = "Pistola Boltok";
+"weapon.description.boltok" = "Era el arma estándar de los Locust, en particular de los Drones. La pistola continúa la filosofía de diseño de armas de los Locust, con énfasis en la fuerza bruta.";
+"weapon.name.lancer" = "Fusil de Asalto Lancer Mark 1";
+"weapon.description.lancer" = "Apodado Retro Lancer durante la Pandemia Lambent, era el predecesor del fusil de asalto Lancer Mark 2. Anteriormente el fusil de asalto principal del ejército de la Coalición de Gobiernos Ordenados, el Mark 1 se utilizó durante las Guerras Pendulares.";
+"weapon.name.lancer2" = "Fusil de Asalto Lancer Mark 2";
+"weapon.description.lancer2" = "Una mejora del fusil de asalto Lancer Mark 1, producido con una bayoneta de sierra, mayor precisión, menor retroceso y mayor capacidad de municiones, pero menos potencia de fuego en comparación con su predecesor.";
+"weapon.name.sniper" = "Fusil de Francotirador Longshot";
+"weapon.description.sniper" = "Era un fusil de francotirador de un solo tiro de gran calibre. Creado por la Coalición de Gobiernos Ordenados durante las Guerras Pendulares, el Longshot también se utilizó diecisiete años después del Día de la Emergencia.";
+"weapon.name.hammer_of_dawn" = "Martillo del Alba";
+"weapon.description.hammer_of_dawn" = "El Martillo del Alba era un láser orbital alimentado por Imulsion COG. Sus componentes clave fueron inventados por el científico UIR Mauris Ivo y completados por el profesor Adam Fenix después de ser robados durante la Operación: Leveler.";
+"weapon.name.mx8" = "Pistola MX8";
+"weapon.description.mx8" = "Era el arma de mano estándar para el personal de las fuerzas armadas de la Coalición de Gobiernos Ordenados.";
+
