@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Uv-lp-ftF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3Uv-lp-ftF">
     <device id="retina6_12" orientation="portrait" appearance="dark"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -11,6 +11,9 @@
     <customFonts key="customFonts">
         <array key="CGF Locust Resistance.ttf">
             <string>CGFLocustResistance</string>
+        </array>
+        <array key="PressStart2P-Regular.ttf">
+            <string>PressStart2P-Regular</string>
         </array>
     </customFonts>
     <scenes>
@@ -144,7 +147,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Cy7-h0-7yM"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="20"/>
                                 <color key="textColor" name="GOWRed"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -170,7 +173,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="zMv-BO-TXy"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="17"/>
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -185,7 +188,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="qBk-wu-5v7"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="PressStart2P-Regular" family="Press Start 2P" pointSize="15"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -312,7 +315,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="HHS-pS-iHo"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="20"/>
                                 <color key="textColor" name="GOWRed"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -338,7 +341,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="40" id="6a9-Z7-rid"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
+                                                    <fontDescription key="fontDescription" name="CGFLocustResistance" family="CGF Locust Resistance" pointSize="15"/>
                                                     <color key="textColor" name="GOWRed"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -353,7 +356,7 @@
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="130" id="5z4-RF-lMT"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="PressStart2P-Regular" family="Press Start 2P" pointSize="17"/>
                                                     <color key="textColor" name="GOWText"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>

@@ -21,6 +21,20 @@ class WeaponsCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        let WTFont = UIFont(name: "CGF Locust Resistance", size: 17)
+        let title1Metrics = UIFontMetrics(forTextStyle: .title1)
+        
+        weaponsTitle.font = title1Metrics.scaledFont(for: WTFont!)
+        weaponsTitle.adjustsFontForContentSizeCategory = translatesAutoresizingMaskIntoConstraints
+        
+        let WDFont = UIFont(name: "PressStart2P-Regular", size: 15)
+        let DescriptionMetrics = UIFontMetrics(forTextStyle: .title3)
+        
+        weaponsDescription.font = DescriptionMetrics.scaledFont(for: WDFont!)
+        weaponsDescription.adjustsFontForContentSizeCategory = translatesAutoresizingMaskIntoConstraints
+        
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

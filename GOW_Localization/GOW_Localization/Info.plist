@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>CGF Locust Resistance.ttf</string>
+		<string>PressStart2P-Regular.ttf</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
@@ -25,7 +26,7 @@
 			</array>
 		</dict>
 	</dict>
-    <key>UIUserInterfaceStyle</key>
-    <string>Dark</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Dark</string>
 </dict>
 </plist>

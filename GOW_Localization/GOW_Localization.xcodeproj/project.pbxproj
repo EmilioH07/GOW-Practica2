@@ -21,6 +21,7 @@
 		717E4FA22C829C9F00350FC1 /* WeaponsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E4FA12C829C9F00350FC1 /* WeaponsCell.swift */; };
 		717E4FA52C82A7D300350FC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E4FA42C82A7D300350FC1 /* Constants.swift */; };
 		717E4FAA2C82AEFF00350FC1 /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 717E4FA92C82AEFF00350FC1 /* CGF Locust Resistance.ttf */; };
+		866C2BF92C86F7C30057C80E /* PressStart2P-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 866C2BF82C86F7C30057C80E /* PressStart2P-Regular.ttf */; };
 		BC608EC72C837723000E6D62 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC608EC62C837723000E6D62 /* StringExtension.swift */; };
 		BC9D038A2C864E4D00BCC6DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC9D03882C864E4D00BCC6DA /* Localizable.strings */; };
 /* End PBXBuildFile section */
@@ -42,6 +43,7 @@
 		717E4FA12C829C9F00350FC1 /* WeaponsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsCell.swift; sourceTree = "<group>"; };
 		717E4FA42C82A7D300350FC1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		717E4FA92C82AEFF00350FC1 /* CGF Locust Resistance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CGF Locust Resistance.ttf"; sourceTree = "<group>"; };
+		866C2BF82C86F7C30057C80E /* PressStart2P-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PressStart2P-Regular.ttf"; sourceTree = "<group>"; };
 		BC608EC62C837723000E6D62 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BC9D037C2C864B4900BCC6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		BC9D03892C864E4D00BCC6DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		717E4FA62C82AE5000350FC1 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				866C2BF82C86F7C30057C80E /* PressStart2P-Regular.ttf */,
 				717E4FA92C82AEFF00350FC1 /* CGF Locust Resistance.ttf */,
 			);
 			path = fonts;
@@ -221,6 +224,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				866C2BF92C86F7C30057C80E /* PressStart2P-Regular.ttf in Resources */,
 				BC9D038A2C864E4D00BCC6DA /* Localizable.strings in Resources */,
 				717E4FAA2C82AEFF00350FC1 /* CGF Locust Resistance.ttf in Resources */,
 				717E4F892C826E7B00350FC1 /* LaunchScreen.storyboard in Resources */,
@@ -424,6 +428,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +462,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
