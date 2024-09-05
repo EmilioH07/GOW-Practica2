@@ -80,7 +80,7 @@ class WeaponsViewController: UIViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         WeaponsTableView.dataSource = self
         WeaponsTableView.delegate = self
         let tabItem = self.tabBarItem.tag
@@ -92,9 +92,14 @@ class WeaponsViewController: UIViewController {
             arrayWeapons = locusWeapons
         }
         print(arrayWeapons)
-    
         
+        // Change color of the navigationBar to gray
+        self.navigationController?.navigationBar.tintColor = .gray
         
+        // Change color of tabBar when clicking a specific icon
+        if let tabBarController = self.tabBarController {
+            tabBarController.tabBar.tintColor = UIColor.red
+        }
     }
 }
 

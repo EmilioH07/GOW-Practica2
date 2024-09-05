@@ -24,6 +24,9 @@ class GamesViewController: UIViewController {
         gamePosterPageControl.pageIndicatorTintColor = .lightGray
         
         updatePageControlImages()
+        
+        // Change color of the navigationBar to gray
+        self.navigationController?.navigationBar.tintColor = .gray
     }
     
 

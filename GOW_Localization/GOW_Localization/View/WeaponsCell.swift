@@ -15,12 +15,16 @@ class WeaponsCell: UITableViewCell {
     @IBOutlet weak var weaponsTitle: UILabel!
     
 
-
+    
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        
+        // Add Locus and CGO Autoresizing
+        
+        
         
         let WTFont = UIFont(name: "CGF Locust Resistance", size: 17)
         let title1Metrics = UIFontMetrics(forTextStyle: .title1)
